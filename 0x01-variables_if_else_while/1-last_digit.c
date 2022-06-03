@@ -14,17 +14,17 @@ char msg[] = "the Last digit of the given number";
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 last_digit = n % 10;
-if (last_digit > 5)
+if(last_digit > 5)
 {
-printf("%s %d is %d and it is greater than 5\n", msg, n, last_digit);
+printf("%s %d is %d and it is greater than 5\n",msg,n,last_digit);
 }
-else if (last_digit == 0)
+else if(last_digit == 0)
 {
-printf("%s %d is %d and is 0\n", msg, n, last_digit);
+printf("%s %d is %d and is 0\n",msg,n,last_digit);
 }
-else if (last_digit < 6)
+else if(last_digit < 6)
 {
-printf("%s %d is %d and it is less than 6 and but not than 0\n", msg, n, last_digit);
+printf("%s %d is %d and it is less than 6 and but not than 0\n",msg,n,last_digit);
 }
-return (0);
+return(0);
 
